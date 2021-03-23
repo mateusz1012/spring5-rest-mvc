@@ -1,0 +1,7 @@
+package matt.project.spring5restmvc.repositories;
+
+import matt.project.spring5restmvc.domain.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {
+}
