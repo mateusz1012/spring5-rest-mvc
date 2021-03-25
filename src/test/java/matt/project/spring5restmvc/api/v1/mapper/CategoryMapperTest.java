@@ -2,11 +2,11 @@ package matt.project.spring5restmvc.api.v1.mapper;
 
 import matt.project.spring5restmvc.api.v1.model.CategoryDTO;
 import matt.project.spring5restmvc.domain.Category;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 
-class CategoryMapperTest {
+public class CategoryMapperTest {
 
     public static final String NAME = "Matt";
     public static final long ID = 1L;
@@ -14,7 +14,7 @@ class CategoryMapperTest {
     CategoryMapper categoryMapper = CategoryMapper.INSTANCE;
 
     @Test
-    void categoryToCategoryDTO() {
+    public void categoryToCategoryDTO() {
 
         //given
         Category category = new Category();
