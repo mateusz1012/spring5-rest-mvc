@@ -1,4 +1,4 @@
-package matt.project.spring5restmvc.controllers.v1;
+package matt.project.spring5restmvc.services;
 
 import matt.project.spring5restmvc.api.v1.mapper.CustomerMapper;
 import matt.project.spring5restmvc.api.v1.model.CustomerDTO;
@@ -6,8 +6,6 @@ import matt.project.spring5restmvc.bootstrap.Bootstrap;
 import matt.project.spring5restmvc.domain.Customer;
 import matt.project.spring5restmvc.repositories.CategoryRepository;
 import matt.project.spring5restmvc.repositories.CustomerRepository;
-import matt.project.spring5restmvc.services.CustomerService;
-import matt.project.spring5restmvc.services.CustomerServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

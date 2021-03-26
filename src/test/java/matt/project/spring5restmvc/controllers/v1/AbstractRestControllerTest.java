@@ -1,4 +1,4 @@
-package matt.project.spring5restmvc.api.v1.mapper;
+package matt.project.spring5restmvc.controllers.v1;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
