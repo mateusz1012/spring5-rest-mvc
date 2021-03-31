@@ -1,6 +1,7 @@
 package matt.project.spring5restmvc.controllers.v1;
 
 import matt.project.spring5restmvc.api.v1.model.CategoryDTO;
+import matt.project.spring5restmvc.controllers.RestResponseEntityExceptionHandler;
 import matt.project.spring5restmvc.services.CategoryService;
 import matt.project.spring5restmvc.services.ResourceNotFoundException;
 import org.junit.Before;

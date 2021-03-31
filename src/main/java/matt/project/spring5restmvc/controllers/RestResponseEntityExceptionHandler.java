@@ -1,4 +1,4 @@
-package matt.project.spring5restmvc.controllers.v1;
+package matt.project.spring5restmvc.controllers;
 
 import matt.project.spring5restmvc.services.ResourceNotFoundException;
 import org.springframework.http.HttpHeaders;
